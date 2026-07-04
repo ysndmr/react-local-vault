@@ -91,3 +91,4 @@ CI (`.github/workflows/publish.yml`) does this automatically on every push to `m
 ## License
 
 MIT
+# react-local-vault
