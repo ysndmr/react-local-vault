@@ -2,6 +2,8 @@
 
 Reactive, encrypted browser storage for React — built on hooks, under 2KB gzipped, zero runtime dependencies.
 
+**Also available for:** [Angular](https://github.com/ysndmr/ngx-local-vault) ([npm](https://www.npmjs.com/package/ngx-local-vault) · [demo](https://ysndmr.github.io/ngx-local-vault/)) · [Vue](https://github.com/ysndmr/vue-local-vault) ([npm](https://www.npmjs.com/package/vue-local-vault) · [demo](https://ysndmr.github.io/vue-local-vault/))
+
 Most storage wrappers give you a getter/setter pair and leave persistence, encryption, and expiry as an exercise for the consumer. `react-local-vault` collapses all three into a single hook: read it like `useState`, write it like `useState`, and the library takes care of encrypting the payload, syncing it to `localStorage` or `sessionStorage`, and expiring it on a TTL.
 
 - **Hook-native** — `useVault()` returns the same `[value, setValue]` tuple shape as `useState`

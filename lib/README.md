@@ -4,6 +4,7 @@ Reactive, encrypted browser storage for React — built on hooks, under 2KB gzip
 
 **Live demo:** https://ysndmr.github.io/react-local-vault/
 **Source:** https://github.com/ysndmr/react-local-vault
+**Also available for:** [Angular](https://github.com/ysndmr/ngx-local-vault) ([npm](https://www.npmjs.com/package/ngx-local-vault) · [demo](https://ysndmr.github.io/ngx-local-vault/)) · [Vue](https://github.com/ysndmr/vue-local-vault) ([npm](https://www.npmjs.com/package/vue-local-vault) · [demo](https://ysndmr.github.io/vue-local-vault/))
 
 ## Install
 
