@@ -92,3 +92,4 @@ CI (`.github/workflows/publish.yml`) does this automatically on every push to `m
 
 MIT
 # react-local-vault
+# react-local-vault
