@@ -1,0 +1,16 @@
+{
+  "name": "react-local-vault-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "lib",
+    "demo"
+  ],
+  "scripts": {
+    "build:lib": "npm run build --workspace lib",
+    "build:demo": "npm run build --workspace demo",
+    "build": "npm run build:lib && npm run build:demo",
+    "dev": "npm run build:lib && npm run dev --workspace demo",
+    "test": "npm run test --workspace lib"
+  }
+}

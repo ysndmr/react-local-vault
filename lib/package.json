@@ -1,0 +1,57 @@
+{
+  "name": "react-local-vault",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Reactive, encrypted browser storage for React — built on hooks, under 2KB gzipped, zero runtime dependencies.",
+  "homepage": "https://ysndmr.github.io/react-local-vault/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysndmr/react-local-vault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ysndmr/react-local-vault/issues"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "localstorage",
+    "sessionstorage",
+    "encryption",
+    "storage"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.2",
+    "vitest": "^4.0.8",
+    "jsdom": "^25.0.1",
+    "@testing-library/react": "^16.1.0"
+  }
+}
